@@ -28,14 +28,9 @@ A simple web application that displays real-time weather data using the Tomorrow
 ### Setup
 
 1. Clone this repository
-2. Create a `.env` file in the root directory
-3. Add your Tomorrow.io API key to the `.env` file:
-   ```
-   TOMORROW_API_KEY=your_api_key_here
-   ```
-4. Open `index.html` in your web browser
-5. Enter a location in the search box
-6. Click "Get Weather" to see the results
+2. Open `index.html` in your web browser
+3. Enter a location in the search box
+4. Click "Get Weather" to see the results
 
 ## API Integration
 
@@ -48,7 +43,6 @@ This application uses the Tomorrow.io API to fetch weather data. The API endpoin
 - `index.html` - Main HTML file containing the application structure
 - `styles.css` - CSS styles for the application
 - `hourly_app.js` - JavaScript code for weather data and charts
-- `.env` - Environment variables (not tracked by git)
 
 ## Usage
 
@@ -59,10 +53,16 @@ This application uses the Tomorrow.io API to fetch weather data. The API endpoin
 
 ## Security Note
 
-The API key is stored in the `.env` file which is not tracked by git. Make sure to:
-1. Never commit your `.env` file
-2. Keep your API key secure
-3. Use different API keys for development and production
+⚠️ **Important Security Information**:
+This application currently stores the API key directly in the client-side JavaScript code. This is not a secure practice for production environments because:
+1. The API key is visible to anyone who views the page source
+2. It could be misused by others
+3. It could lead to unexpected API usage charges
+
+For a production environment, you should:
+1. Create a backend service to handle API calls
+2. Store the API key securely on the server
+3. Have the frontend make requests to your backend instead of directly to the API
 
 ## License
 

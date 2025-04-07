@@ -1,5 +1,7 @@
 const baseUrl = 'https://api.tomorrow.io/v4/weather/forecast';
-const apiKey = process.env.TOMORROW_API_KEY;
+// For development, you can temporarily use your API key here
+// For production, you should use a backend service to handle the API key
+const apiKey = 'TOMORROW.IO API KEY'
 const timeSteps = 'timesteps=1h';
 
 const options = {
