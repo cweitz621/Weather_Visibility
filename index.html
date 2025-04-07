@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Weather</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <h1>Get Weather</h1>
+            <label for="location">Enter Location:</label>
+            <input type="text" id="location" placeholder="Enter city or coordinates">
+            <button id="getWeather">Get Weather</button>
+            <div id="weatherResult" class="result"></div>
+        </div>
+
+        <div class="weather-details">
+            <h2>Details</h2>
+            <p><strong>Current Location:</strong> <span id="currentLocation">N/A</span></p>
+            <p><strong>Current Visibility:</strong> <span id="currentVisibility">N/A</span></p>
+            <p><strong>Current Cloud Ceiling:</strong> <span id="currentCloudCeiling">N/A</span></p> 
+        </div>
+
+        <div class="chart-section">
+            <div class="chart-container">
+                <h2 class="chart-title">Hourly Visibility</h2>
+                <canvas id="visChart"></canvas>
+            </div>
+        
+            <div class="chart-container">
+                <h2 class="chart-title">Hourly Cloud Ceiling</h2>
+                <canvas id="ccChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="hourly_app.js" defer></script>
+</body>
+</html>

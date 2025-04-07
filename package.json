@@ -1,0 +1,28 @@
+{
+  "name": "weather-visibility-app",
+  "version": "1.0.0",
+  "description": "A web application that displays visibility and cloud ceiling weather data using the Tomorrow.io API",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/Weather_Project.git"
+  },
+  "keywords": [
+    "weather",
+    "tomorrow.io",
+    "visibility",
+    "cloud-ceiling"
+  ],
+  "author": "Collin Weitz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/Weather_Project/issues"
+  },
+  "homepage": "https://github.com/yourusername/Weather_Project#readme",
+  "dependencies": {
+    "chart.js": "^4.4.1"
+  }
+} 
