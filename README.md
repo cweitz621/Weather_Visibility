@@ -2,6 +2,8 @@
 
 A simple web application that displays real-time weather data using the Tomorrow.io API. The app provides visibility and cloud ceiling information for any location.
 
+![Weather](https://github.com/user-attachments/assets/109070f9-ca43-4fb6-bc6e-c4545056e88b)
+
 ## Features
 
 - Real-time weather data retrieval
