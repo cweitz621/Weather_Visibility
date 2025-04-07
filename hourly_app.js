@@ -1,5 +1,5 @@
 const baseUrl = 'https://api.tomorrow.io/v4/weather/forecast';
-const apiKey = 'T6XfPBzpeaqDQkerfE1pAGSLxzqz8JeG';
+const apiKey = process.env.TOMORROW_API_KEY;
 const timeSteps = 'timesteps=1h';
 
 const options = {
