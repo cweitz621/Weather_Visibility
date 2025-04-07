@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/Weather_Project.git"
+    "url": "https://github.com/cweitz621/Weather_Visibility"
   },
   "keywords": [
     "weather",
@@ -19,9 +19,9 @@
   "author": "Collin Weitz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yourusername/Weather_Project/issues"
+    "url": "https://github.com/cweitz621/Weather_Visibility/issues"
   },
-  "homepage": "https://github.com/yourusername/Weather_Project#readme",
+  "homepage": "https://github.com/cweitz621/Weather_Visibility",
   "dependencies": {
     "chart.js": "^4.4.1"
   }
